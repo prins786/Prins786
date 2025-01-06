@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.color-changing-text {
+    font-size: 12px; /* साइज को 12px किया */
+    font-weight: bold;
+    animation: colorChange 3s infinite;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* रंग बदलने का CSS एनिमेशन */
+@keyframes colorChange {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: purple; }
+    100% { color: orange; }
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* टेलीग्राम आइकॉन्स के लिए स्टाइल */
+.telegram-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.telegram-icons a {
+    margin: 0 15px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.telegram-icons a:hover {
+    opacity: 0.7;
+}
+
+.telegram-icons .support {
+    color: #0088CC; /* Support आइकन का रंग नीला */
+}
+
+.telegram-icons .group {
+    color: #F13434; /* Group आइकन का रंग हल्का नीला */
+}
+
+.telegram-icons p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+    font-weight: bold;
+}
